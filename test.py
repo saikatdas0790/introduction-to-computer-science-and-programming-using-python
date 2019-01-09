@@ -1,11 +1,2 @@
-
-x = 5
-print(x)
-
-
-def dummyFunction1():
-    x = 25
-    print x
-
-
-print(x)
+for i in range(4, 1, -1):
+    print(i)
