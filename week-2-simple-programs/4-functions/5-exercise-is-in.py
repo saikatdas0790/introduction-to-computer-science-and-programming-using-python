@@ -14,9 +14,9 @@ def isIn(char, aStr):
         if char == aStr[int(len(aStr)/2)]:
             return True
         elif char < aStr[int(len(aStr)/2)]:
-            isIn(char, aStr[:int(len(aStr)/2)])
+            return isIn(char, aStr[:int(len(aStr)/2)])
         else:
-            isIn(char, aStr[(int(len(aStr)/2))+1:])
+            return isIn(char, aStr[(int(len(aStr)/2))+1:])
 
 
 print(isIn("z", "abcd"))
