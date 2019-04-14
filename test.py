@@ -1,2 +1,4 @@
-for i in range(4, 1, -1):
-    print(i)
+num = 10
+for num in range(5):
+    print(num)
+print(num)
